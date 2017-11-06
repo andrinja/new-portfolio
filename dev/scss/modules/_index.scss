@@ -1,0 +1,221 @@
+.section {
+  .scroll-item {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    .mouse {
+      position: absolute;
+      width: 22px;
+      height: 42px;
+      bottom: 16px;
+      left: 50%;
+      margin-left: -12px;
+      border-radius: 15px;
+      border: 2px solid white;
+      animation: intro 1s;
+
+      @keyframes intro {
+        0% {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .scroll {
+        display: block;
+        width: 3px;
+        height: 3px;
+        margin: 6px auto;
+        border-radius: 4px;
+        background: white;
+        animation: finger 1s infinite;
+
+        @keyframes finger {
+          0% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+        }
+
+      }
+    }
+
+
+  }
+}
+.front-page {
+  .front-image {
+    position: relative;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+  }
+  .box-item {
+    width: 1080px;  height: 900px;
+    position: absolute;
+    top: 26px; left: -350px;
+    background-color: $purple;
+    opacity: 0.9;
+    z-index: 2;
+    transform: rotate(-45deg);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+  }
+  @media only screen and (max-width: 768px) {
+    .front-image {
+      display: none;
+    }
+    .box-item {
+      transform: rotate(0);
+      opacity: 1;
+      height: 100vh; width: 100vw;
+      top: 0;  left: 0;
+    }
+
+  }
+
+  .text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 3;
+    top: 30%;
+    padding: 24px;
+    color: white;
+    .name {
+      font-size: 54px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+    }
+    .title {
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 100;
+      padding: 8px 0 8px 0;
+    }
+    .sub-title {
+      font-size: 16px;
+      font-weight: 100;
+
+    }
+    .buttons {
+      display: flex;
+      align-items: flex-start;
+      padding-top: 16px;
+
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38px; width: 127px;
+        background-color: $dark-blue;
+        border-radius: 19px;
+        color: white;
+        font-weight: 100;
+        margin-right: 16px;
+        text-decoration: none;
+        &.project-btn {
+          background-color: $white;
+          color: $dark-blue;
+
+        }
+      }
+    }
+  }
+}
+
+.project-one {
+  height: 100vh; width: 100vw;
+  display: flex;
+  flex-direction: column;
+  .all-projects-box {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: $white;
+    position: absolute;
+    top: 128px;
+    left: 16px;
+    font-size: 16px;
+    font-weight: 100;
+    @media only screen and (max-width: 768px) {
+      width: 100vw;
+      top: 70px;
+    }
+    .title {
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 36px;
+    }
+    .description {
+      padding: 16px 0;
+    }
+    .all-project-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 150px; height: 36px;
+      text-decoration: none;
+      color: $white;
+      text-transform: uppercase;
+      border: 1px solid $white;
+      border-radius: 18px;
+
+    }
+  }
+  .project-items {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+    .item {
+      width: 376px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      font-weight: 100;
+      position: absolute;
+      top: 30%;
+      right: 25%;
+      .view-design-btn {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-top: 16px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .arrow-icon {
+          width: 24px; height: 24px;
+          border-radius: 50%;
+          background-color: $yellow;
+          margin-left: 16px;
+          color: $purple;
+        }
+      }
+    }
+  }
+}

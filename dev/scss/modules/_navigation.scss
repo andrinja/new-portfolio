@@ -1,0 +1,95 @@
+.top-nav {
+  height: 64px;
+  width: 100vw;
+  position: fixed;
+  z-index: 2;
+  border-bottom: 1px solid white;
+  color: white;
+  background-color: $purple;
+  .nav-items {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    .logo {
+      text-decoration: none;
+      color: white;
+      font-size: 36px;
+      font-weight: 800;
+    }
+    .menu-icon {
+      width: 24px;
+      height: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .line {
+        position: absolute;
+        width: 24px;
+        height: 3px;
+        border-radius: 1.5px;
+        background-color: white;
+        &.top-line {
+          top: 24px;
+        }
+        &.middle-line {
+          top: 31px;
+        }
+        &.bottom-line {
+          top: 38px;
+        }
+      }
+    }
+    .title-items {
+      height: 100%; width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      position: absolute;
+      right: 56px;
+      opacity: 0;
+
+      &.open {
+        opacity: 1;
+      }
+      .title-item {
+        padding: 0 24px;
+        text-decoration: none;
+        color: white;
+        font-weight: 300;
+        font-size: 18px;
+        text-transform: uppercase;
+
+        &:hover {
+          color: $purple;
+          transition: color 1s linear;
+        }
+      }
+
+
+      @media only screen and (max-width: 768px) {
+        width: 100vw; height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 66px;
+        right: 0;
+        background-color: lighten($purple, 10);
+          .title-item {
+            width: 100%;
+            padding: 16px;
+            display: flex;
+            justify-content: center;
+            &:hover {
+              background-color: $purple;
+              transition: background-color 1s linear;
+            }
+          }
+      }
+    }
+
+  }
+}

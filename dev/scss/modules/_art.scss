@@ -1,0 +1,97 @@
+.art-page {
+  width: 100vw;
+  background-color: $purple;
+  .content {
+    position: relative;
+    z-index: 1;
+    top: 64px;
+    color: white;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    .side-bar {
+      font-size: 18px;
+      .sections {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .section {
+          padding: 16px 24px 16px 24px;
+          text-decoration: none;
+          color: white;
+          opacity: 0.5;
+          &.active {
+            opacity: 1;
+          }
+        }
+      }
+      .filters {
+        font-size: 16px;
+        padding-top: 16px;
+      }
+    }
+    .content-item {
+      width: 100vw;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      @media screen and (max-width: 1020px) {
+        flex-direction: column;
+      }
+      .image-group {
+        width: calc(33.33% - 32px);
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        background: #2f2653;
+        box-shadow: 0 0 2px black;
+        border-radius: 2px;
+        padding: 16px;
+        margin: 8px;
+        cursor: pointer;
+        @media screen and (max-width: 1080px) {
+          width: 100vw;
+        }
+        img {
+          width: 100%;
+          height: 300px;
+          object-fit: contain;
+        }
+        .title {
+          padding-top: 8px;
+          align-self: center;
+        }
+        .tags {
+          display: none;
+        }
+      }
+    }
+    .image-preview {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 3;
+      &.shown {
+        display: flex;
+      }
+      .close-image-preview {
+        position: absolute;
+        top: 10px;
+        right: 24px;
+        cursor: pointer;
+      }
+      img {
+        max-width: 90%;
+        max-height: 90%;
+      }
+    }
+  }
+}
+
+
