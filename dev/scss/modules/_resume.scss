@@ -1,0 +1,41 @@
+.resume-content {
+  width: 100vw; height: 100vh;
+  display: flex;
+  justify-content: center;
+  .back-btn {
+    position: absolute;
+    z-index: 4;
+    left: 16px;
+    top: 16px;
+    i {
+      color: white;
+    }
+  }
+.cv-image {
+  object-fit: cover;
+  align-self: center;
+  height: calc(100% - 32px);  width: auto;
+  position: absolute;
+  z-index: 4;
+  @media only screen and (max-width: 720px) {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    top: 54px;
+  }
+  @media only screen and (max-width: 420px)  {
+    top: 0;
+  }
+}
+  .top-nav {
+    filter: blur(10px);
+  }
+  .blur-background {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparentize(white, 0.9);
+    filter: blur(10px);
+    position: absolute;
+    z-index: 3;
+  }
+}
