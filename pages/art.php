@@ -15,7 +15,6 @@
             <div class="sections">
                 <div class="section active" data-content-item="images">Paintings</div>
                 <div class="section" data-content-item="shop">Shop</div>
-                <a class="section" data-content-item="prints" target="_blank" href="https://society6.com/andrinjaa">Prints</a>
 
             </div>
             <!--<div class="filters">
