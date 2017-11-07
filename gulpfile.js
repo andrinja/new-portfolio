@@ -11,7 +11,7 @@ gulp.task('css',function () {
 
 gulp.task('js', function () {
     gulp.src('dev/js/**/*.js')
-        .pipe(concat('pages.js'))
+        .pipe(concat('app.js'))
         .on('error', showError)
         .pipe(gulp.dest('./'))
 });
