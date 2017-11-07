@@ -196,24 +196,6 @@ function switchToGrid() {
     imageContainer.classList.add('grid');
 }
 
-var openMenuButton = document.querySelector('.btn-open-menu');
-
-openMenuButton.addEventListener('click',openMenu);
-
-function openMenu() {
-    var menuOpen = document.querySelector('.menu');
-    menuOpen.classList.add('active');
-}
-
-var closeMenuButton = document.querySelector('.btn-close-menu');
-closeMenuButton.addEventListener('click', closeMenu);
-
-function closeMenu() {
-    var menuClose = document.querySelector('.menu');
-    var menuOpen = document.querySelector('.menu');
-    menuOpen.classList.remove('active');
-    menuClose.classList.add('btn-close-menu');
-}
 function slideImage(){
     var images = document.querySelectorAll(".image-group");
 
@@ -299,13 +281,12 @@ if(sliderExists != undefined || gridExists != undefined){
 
 
 
-
-
 //all 3 sections
 var sectionsAll = document.querySelectorAll('.section');
 for(var i = 0; i < sectionsAll.length; i++) {
     var section = sectionsAll[i];
     section.addEventListener('click', chooseSection);
+
 }
 
 //    add active class to chosed section and remove
