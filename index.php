@@ -19,7 +19,7 @@
                     <div class="title">Front end developer</div>
                     <div class="sub-title">“Design is not just what it looks like and feels like. Design is how it works.”</div>
                     <div class="buttons">
-                        <a class="resume-btn btn" href="">Resume</a>
+                        <a class="resume-btn btn" href="pages/resume.php">Resume</a>
                         <a class="project-btn btn" href="">Projects</a>
                     </div>
                 </div>
