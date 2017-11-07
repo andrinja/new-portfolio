@@ -21,6 +21,9 @@ body {
     background-color: green;
     height: 100vh; }
 
+.resume-content {
+  background-color: #0F0C29; }
+
 .top-nav {
   height: 64px;
   width: 100vw;
@@ -454,3 +457,41 @@ body {
       transition: background-color .3s ease, border .3s ease;
       cursor: pointer;
       font-size: 14px; }
+
+.resume-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center; }
+  .resume-content .back-btn {
+    position: absolute;
+    z-index: 4;
+    left: 16px;
+    top: 16px; }
+    .resume-content .back-btn i {
+      color: white; }
+  .resume-content .cv-image {
+    object-fit: cover;
+    align-self: center;
+    height: calc(100% - 32px);
+    width: auto;
+    position: absolute;
+    z-index: 4; }
+    @media only screen and (max-width: 720px) {
+      .resume-content .cv-image {
+        width: 100vw;
+        height: 100vh;
+        object-fit: contain;
+        top: 54px; } }
+    @media only screen and (max-width: 420px) {
+      .resume-content .cv-image {
+        top: 0; } }
+  .resume-content .top-nav {
+    filter: blur(10px); }
+  .resume-content .blur-background {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    filter: blur(10px);
+    position: absolute;
+    z-index: 3; }
