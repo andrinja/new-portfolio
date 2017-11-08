@@ -6,7 +6,8 @@
 
 body {
   margin: 0;
-  font-family: "Roboto"; }
+  font-family: "Roboto";
+  background-color: #0F0C29; }
 
 #fullpage {
   width: 100vw; }
@@ -18,11 +19,7 @@ body {
     z-index: 2;
     height: 100vh; }
   #fullpage .project-two {
-    background-color: green;
     height: 100vh; }
-
-.resume-content {
-  background-color: #0F0C29; }
 
 .top-nav {
   height: 64px;
@@ -495,3 +492,74 @@ body {
     filter: blur(10px);
     position: absolute;
     z-index: 3; }
+
+.about-page {
+  width: 100vw;
+  height: 100vh; }
+  .about-page .top-container {
+    display: flex;
+    position: relative;
+    top: 64px;
+    width: 100vw;
+    min-height: 380px; }
+    .about-page .top-container .value-items {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-transform: uppercase;
+      font-weight: 100;
+      font-size: 18px; }
+      .about-page .top-container .value-items .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 24px; }
+        .about-page .top-container .value-items .item img.circle {
+          width: 54px;
+          height: 54px;
+          margin-bottom: 16px;
+          object-fit: cover; }
+    .about-page .top-container .andra-back-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: blur(5px);
+      position: absolute;
+      z-index: 1; }
+  .about-page .bottom-container {
+    position: relative;
+    z-index: 2;
+    top: 74px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 100; }
+    .about-page .bottom-container .about-title {
+      font-size: 16px;
+      margin: 16px; }
+    .about-page .bottom-container .subtitle {
+      margin: 0 16px; }
+    .about-page .bottom-container .skill-items .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 16px; }
+      .about-page .bottom-container .skill-items .row .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35px;
+        width: auto;
+        padding: 0 16px;
+        border-radius: 18px;
+        border: 1px solid white;
+        margin: 0 8px; }
