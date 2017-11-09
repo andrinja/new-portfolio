@@ -40,62 +40,59 @@
             </div>
             <div class="skill-items">
                 <div class="row">
-                    <div class="item">
+                    <div class="item html">
                         <div class="title">HTML</div>
                     </div>
-                    <div class="item">
+                    <div class="item javascript">
                         <div class="title">Javascript</div>
                     </div>
-                    <div class="item">
+                    <div class="item css">
                         <div class="title">CSSS3</div>
                     </div>
-                    <div class="item">
+                    <div class="item jquery">
                         <div class="title">Jquery</div>
                     </div>
-                    <div class="item">
+                    <div class="item php">
                         <div class="title">PHP</div>
                     </div>
-                    <div class="item">
+                    <div class="item mysql">
                         <div class="title">MySql</div>
                     </div>
-                    <div class="item">
+                    <div class="item sass">
                         <div class="title">SASS</div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="item">
-                        <div class="title">Photoshop</div>
+                    <div class="item photoshop">
+                        <div class="title eight">Photoshop</div>
                     </div>
-                    <div class="item">
+                    <div class="item illustrator">
                         <div class="title">Illustrator</div>
                     </div>
-                    <div class="item">
+                    <div class="item premiere">
                         <div class="title">Premiere Pro</div>
                     </div>
-                    <div class="item">
+                    <div class="item after-effects">
                         <div class="title">After effects</div>
                     </div>
-                    <div class="item">
+                    <div class="item figma">
                         <div class="title">Figma & Sketch</div>
                     </div>
-                    <div class="item">
+                    <div class="item seo">
                         <div class="title">SEO Optimization</div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="item">
+                    <div class="item wordpress">
                         <div class="title">Wordpress</div>
                     </div>
-                    <div class="item">
+                    <div class="item angular">
                         <div class="title">Angular</div>
                     </div>
-                    <div class="item">
-                        <div class="title">Premiere Pro</div>
-                    </div>
-                    <div class="item">
+                    <div class="item laracasts">
                         <div class="title">Laracasts</div>
                     </div>
-                    <div class="item">
+                    <div class="item bootstrap">
                         <div class="title">Bootrstrap</div>
                     </div>
                 </div>
