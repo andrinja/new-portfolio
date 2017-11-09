@@ -1,4 +1,7 @@
-
+$('.item').on('click', function () {
+    $('.item').removeClass('active');
+        $(this).addClass('active');
+});
 
 function removeFilter(event) {
     var removeButton = event.target;

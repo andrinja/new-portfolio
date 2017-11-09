@@ -285,7 +285,7 @@ body {
           width: 24px;
           height: 24px;
           border-radius: 50%;
-          background-color: #FDD304;
+          background-color: #f1c40f;
           margin-left: 16px;
           color: #302B63; }
 
@@ -573,4 +573,109 @@ body {
         padding: 0 16px;
         border-radius: 18px;
         border: 1px solid white;
-        margin: 8px; }
+        transition: border 0.3s linear;
+        margin: 8px;
+        font-weight: 400;
+        cursor: pointer; }
+        .about-page .bottom-container .skill-items .row .item.html.active {
+          border: 1px solid #c0392b;
+          box-shadow: 0 3px 6px #c0392b;
+          color: #302B63;
+          background-color: #c0392b;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.javascript.active {
+          border: 1px solid #219653;
+          box-shadow: 0 3px 6px #219653;
+          color: #302B63;
+          background-color: #219653;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.css.active {
+          border: 1px solid #f1c40f;
+          box-shadow: 0 3px 6px #f1c40f;
+          color: #302B63;
+          background-color: #f1c40f;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.jquery.active {
+          border: 1px solid #2345CB;
+          box-shadow: 0 3px 6px #2345CB;
+          color: #302B63;
+          background-color: #2345CB;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.php.active {
+          border: 1px solid #9B51E0;
+          box-shadow: 0 3px 6px #9B51E0;
+          color: #302B63;
+          background-color: #9B51E0;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.mysql.active {
+          border: 1px solid #f39c12;
+          box-shadow: 0 3px 6px #f39c12;
+          color: #302B63;
+          background-color: #f39c12;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.sass.active {
+          border: 1px solid #C55B8E;
+          box-shadow: 0 3px 6px #C55B8E;
+          color: #302B63;
+          background-color: #C55B8E;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.photoshop.active {
+          border: 1px solid #3498db;
+          box-shadow: 0 3px 6px #3498db;
+          color: #302B63;
+          background-color: #3498db;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.illustrator.active {
+          border: 1px solid #F27200;
+          box-shadow: 0 3px 6px #F27200;
+          color: #302B63;
+          background-color: #F27200;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.premiere.active {
+          border: 1px solid #9B51E0;
+          box-shadow: 0 3px 6px #9B51E0;
+          color: #302B63;
+          background-color: #9B51E0;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.after-effects.active {
+          border: 1px solid #9B51E0;
+          box-shadow: 0 3px 6px #9B51E0;
+          color: #302B63;
+          background-color: #9B51E0;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.figma.active {
+          border: 1px solid #c0392b;
+          box-shadow: 0 3px 6px #c0392b;
+          color: #302B63;
+          background-color: #c0392b;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.seo.active {
+          border: 1px solid #2345CB;
+          box-shadow: 0 3px 6px #2345CB;
+          color: #302B63;
+          background-color: #2345CB;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.wordpress.active {
+          border: 1px solid #3498db;
+          box-shadow: 0 3px 6px #3498db;
+          color: #302B63;
+          background-color: #3498db;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.angular.active {
+          border: 1px solid #c0392b;
+          box-shadow: 0 3px 6px #c0392b;
+          color: #302B63;
+          background-color: #c0392b;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.laracasts.active {
+          border: 1px solid #219653;
+          box-shadow: 0 3px 6px #219653;
+          color: #302B63;
+          background-color: #219653;
+          transition: background-color 0.5s linear; }
+        .about-page .bottom-container .skill-items .row .item.bootstrap.active {
+          border: 1px solid #9B51E0;
+          box-shadow: 0 3px 6px #9B51E0;
+          color: #302B63;
+          background-color: #9B51E0;
+          transition: background-color 0.5s linear; }
