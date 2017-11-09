@@ -7,14 +7,14 @@
 body {
   margin: 0;
   font-family: "Roboto";
-  background-color: #0F0C29; }
+  background: linear-gradient(to bottom right, #0F0C29, #302B63); }
 
 #fullpage {
   width: 100vw; }
   #fullpage .section {
     height: 100vh; }
   #fullpage .project-one {
-    background-color: #0F0C29;
+    background-color: #302B63;
     position: relative;
     z-index: 2;
     height: 100vh; }
@@ -28,7 +28,7 @@ body {
   z-index: 2;
   border-bottom: 1px solid white;
   color: white;
-  background-color: #0F0C29; }
+  background-color: #302B63; }
   .top-nav .nav-items {
     height: 100%;
     display: flex;
@@ -77,7 +77,7 @@ body {
         font-size: 18px;
         text-transform: uppercase; }
         .top-nav .nav-items .title-items .title-item:hover {
-          color: #0F0C29;
+          color: #302B63;
           transition: color 1s linear; }
       @media only screen and (max-width: 768px) {
         .top-nav .nav-items .title-items {
@@ -90,14 +90,14 @@ body {
           position: absolute;
           top: 66px;
           right: 0;
-          background-color: #1d1850; }
+          background-color: #413a87; }
           .top-nav .nav-items .title-items .title-item {
             width: 100%;
             padding: 16px;
             display: flex;
             justify-content: center; }
             .top-nav .nav-items .title-items .title-item:hover {
-              background-color: #0F0C29;
+              background-color: #302B63;
               transition: background-color 1s linear; } }
 
 .section .scroll-item {
@@ -159,7 +159,7 @@ body {
   position: absolute;
   top: 26px;
   left: -350px;
-  background-color: #0F0C29;
+  background-color: #302B63;
   opacity: 0.9;
   z-index: 2;
   transform: rotate(-45deg);
@@ -287,11 +287,11 @@ body {
           border-radius: 50%;
           background-color: #FDD304;
           margin-left: 16px;
-          color: #0F0C29; }
+          color: #302B63; }
 
 .art-page {
   width: 100vw;
-  background-color: #0F0C29; }
+  background-color: #302B63; }
   .art-page .content {
     position: relative;
     z-index: 1;
@@ -307,7 +307,7 @@ body {
         justify-content: center;
         align-items: center;
         position: fixed;
-        background-color: #0F0C29;
+        background-color: #302B63;
         width: 100vw;
         z-index: 2; }
         .art-page .content .side-bar .sections .section {
@@ -510,6 +510,8 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+      margin: 16px;
+      flex-wrap: wrap;
       color: white;
       text-transform: uppercase;
       font-weight: 100;
@@ -547,12 +549,21 @@ body {
       font-size: 16px;
       margin: 16px; }
     .about-page .bottom-container .subtitle {
-      margin: 0 16px; }
+      margin: 0 16px 16px 16px; }
+    .about-page .bottom-container .progress-bar {
+      height: 10px;
+      width: 375px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0F0C29;
+      margin: 16px; }
     .about-page .bottom-container .skill-items .row {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 16px; }
+      flex-wrap: wrap; }
       .about-page .bottom-container .skill-items .row .item {
         display: flex;
         justify-content: center;
@@ -562,4 +573,4 @@ body {
         padding: 0 16px;
         border-radius: 18px;
         border: 1px solid white;
-        margin: 0 8px; }
+        margin: 8px; }
