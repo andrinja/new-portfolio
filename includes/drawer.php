@@ -4,8 +4,7 @@
             <?php include('svg/night-badge.svg') ?>
         </div>
         <div class="title">It's night time</div>
-        <div class="caption">Response times may vary &#1F609;</div>
-    </div>
+        <div class="caption">Response times may vary &#x1F609</div>
 
     <div class="items">
         <div class="item">
