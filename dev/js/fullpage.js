@@ -1,4 +1,12 @@
 $(document).ready(function() {
-    $('#fullpage').fullpage();
-    console.log('full page initialized');
+    //collect all anchors
+    var anchors = [];
+    $('[data-anchor]').each(function(){
+        anchors.push($(this).attr('data-anchor'));
+    });
+
+    //Initialize full page
+    $('#fullpage').fullpage({
+        anchors: anchors
+    });
 });

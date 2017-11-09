@@ -12,10 +12,10 @@
 
     <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/drawer.php');?>
 
-   <div class="page-content menu-open">
+   <div class="page-content">
        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/navigation.php');?>
        <div id="fullpage">
-           <div class="section front-page">
+           <div class="section front-page" data-anchor="home">
                <img class="front-image" src="storage/front-page-background.png" alt="">
                <div class="box-item"></div>
                <div class="text-area">
@@ -33,7 +33,7 @@
                    </div>
                </div>
            </div>
-           <div class="section project-one">
+           <div class="section project-one" data-anchor="test">
                <div class="all-projects-box">
                    <div class="title">Projects</div>
                    <div class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. </div>

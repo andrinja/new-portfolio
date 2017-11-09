@@ -1,5 +1,8 @@
 
 $('#menu').on('click', function () {
+    $('.page-content').toggleClass('menu-open');
+    $('.drawer').toggleClass('open');
+
     if($('.title-items').hasClass('open')) {
         $('.title-items').removeClass('open');
         // TweenMax.staggerTo(".title-items", 0.5, {scale:0.5, opacity:0, x:70, ease:Power0.easeOut}, 0.1);
