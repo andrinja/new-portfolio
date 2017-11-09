@@ -61,8 +61,6 @@
                     <div class="item sass">
                         <div class="title">SASS</div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="item photoshop">
                         <div class="title eight">Photoshop</div>
                     </div>
@@ -81,8 +79,6 @@
                     <div class="item seo">
                         <div class="title">SEO Optimization</div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="item wordpress">
                         <div class="title">Wordpress</div>
                     </div>
