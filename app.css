@@ -555,10 +555,81 @@ body {
       width: 375px;
       border-radius: 5px;
       display: flex;
-      justify-content: center;
       align-items: center;
       background-color: #0F0C29;
       margin: 16px; }
+      .about-page .bottom-container .progress-bar .line {
+        height: 100%;
+        border-radius: 5px;
+        opacity: 0; }
+        .about-page .bottom-container .progress-bar .line.html {
+          opacity: 1;
+          width: 90%;
+          background: linear-gradient(to right, #c0392b, #e74c3c); }
+        .about-page .bottom-container .progress-bar .line.javascript {
+          opacity: 1;
+          width: 50%;
+          background: linear-gradient(to right, #219653, #2ecc71); }
+        .about-page .bottom-container .progress-bar .line.css {
+          opacity: 1;
+          width: 80%;
+          background: linear-gradient(to right, #f1c40f, #FFEA82); }
+        .about-page .bottom-container .progress-bar .line.jquery {
+          opacity: 1;
+          width: 40%;
+          background: linear-gradient(to right, #2345CB, #3498db); }
+        .about-page .bottom-container .progress-bar .line.php {
+          opacity: 1;
+          width: 50%;
+          background: linear-gradient(to right, #302B63, #9B51E0); }
+        .about-page .bottom-container .progress-bar .line.mysql {
+          opacity: 1;
+          width: 50%;
+          background: linear-gradient(to right, #F27200, #f39c12); }
+        .about-page .bottom-container .progress-bar .line.sass {
+          opacity: 1;
+          width: 50%;
+          background: linear-gradient(to right, #C1005D, #C55B8E); }
+        .about-page .bottom-container .progress-bar .line.photoshop {
+          opacity: 1;
+          width: 40%;
+          background: linear-gradient(to right, #2345CB, #3498db); }
+        .about-page .bottom-container .progress-bar .line.illustrator {
+          opacity: 1;
+          width: 60%;
+          background: linear-gradient(to right, #F27200, #f39c12); }
+        .about-page .bottom-container .progress-bar .line.premiere {
+          opacity: 1;
+          width: 30%;
+          background: linear-gradient(to right, #302B63, #9B51E0); }
+        .about-page .bottom-container .progress-bar .line.after-effects {
+          opacity: 1;
+          width: 20%;
+          background: linear-gradient(to right, #302B63, #9B51E0); }
+        .about-page .bottom-container .progress-bar .line.figma {
+          opacity: 1;
+          width: 80%;
+          background: linear-gradient(to right, #c0392b, #e74c3c); }
+        .about-page .bottom-container .progress-bar .line.seo {
+          opacity: 1;
+          width: 70%;
+          background: linear-gradient(to right, #2345CB, #3498db); }
+        .about-page .bottom-container .progress-bar .line.wordpress {
+          opacity: 1;
+          width: 60%;
+          background: linear-gradient(to right, #2345CB, #3498db); }
+        .about-page .bottom-container .progress-bar .line.angular {
+          opacity: 1;
+          width: 10%;
+          background: linear-gradient(to right, #c0392b, #e74c3c); }
+        .about-page .bottom-container .progress-bar .line.laracasts {
+          opacity: 1;
+          width: 10%;
+          background: linear-gradient(to right, #219653, #2ecc71); }
+        .about-page .bottom-container .progress-bar .line.bootstrap {
+          opacity: 1;
+          width: 50%;
+          background: linear-gradient(to right, #302B63, #9B51E0); }
     .about-page .bottom-container .skill-items .row {
       display: flex;
       justify-content: center;

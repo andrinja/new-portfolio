@@ -66,13 +66,102 @@
       height: 10px; width: 375px;
       border-radius: 5px;
       display: flex;
-      justify-content: center;
       align-items: center;
       background-color: $dark-purlple;
       margin: 16px;
+      .line {
+        height: 100%;
+        border-radius: 5px;
+        opacity: 0;
+        &.html {
+           opacity: 1;
+           width: 90%;
+           background: linear-gradient( to right, $red, $light-red);
+         }
+        &.javascript {
+          opacity: 1;
+          width: 50%;
+          background: linear-gradient( to right, $green, $light-green);
+        }
+        &.css {
+           opacity: 1;
+           width: 80%;
+           background: linear-gradient( to right, $yellow, $light-yellow);
+         }
+        &.jquery {
+          opacity: 1;
+          width: 40%;
+          background: linear-gradient( to right, $blue, $light-blue);
+        }
+        &.php {
+          opacity: 1;
+          width: 50%;
+          background: linear-gradient( to right, $purple, $light-purple);
+        }
+        &.mysql {
+          opacity: 1;
+          width: 50%;
+          background: linear-gradient( to right, $dark-orange, $orange);
+        }
+        &.sass {
+            opacity: 1;
+            width: 50%;
+            background: linear-gradient( to right, $dark-pink, $pink);
+          }
+        &.photoshop {
+          opacity: 1;
+          width: 40%;
+          background: linear-gradient( to right, $blue, $light-blue);
+        }
+        &.illustrator {
+          opacity: 1;
+          width: 60%;
+          background: linear-gradient( to right, $dark-orange, $orange);
+        }
+        &.premiere {
+          opacity: 1;
+          width: 30%;
+          background: linear-gradient( to right, $purple, $light-purple);
+        }
+        &.after-effects {
+          opacity: 1;
+          width: 20%;
+          background: linear-gradient( to right, $purple, $light-purple);
+        }
+        &.figma {
+          opacity: 1;
+          width: 80%;
+          background: linear-gradient( to right, $red, $light-red);
+        }
+        &.seo {
+          opacity: 1;
+          width: 70%;
+          background: linear-gradient( to right, $blue, $light-blue);
+        }
+        &.wordpress {
+          opacity: 1;
+          width: 60%;
+          background: linear-gradient( to right, $blue, $light-blue);
+        }
+        &.angular {
+          opacity: 1;
+          width: 10%;
+          background: linear-gradient( to right, $red, $light-red);
+        }
+        &.laracasts {
+          opacity: 1;
+          width: 10%;
+          background: linear-gradient( to right, $green, $light-green);
+        }
+        &.bootstrap {
+          opacity: 1;
+          width: 50%;
+          background: linear-gradient( to right, $purple, $light-purple);
+        }
+
+      }
     }
     .skill-items {
-
       .row {
         display: flex;
         justify-content: center;
