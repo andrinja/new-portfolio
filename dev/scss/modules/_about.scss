@@ -15,6 +15,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      margin: 16px;
+      flex-wrap: wrap;
       color: white;
       text-transform: uppercase;
       font-weight: 100;
@@ -58,14 +60,24 @@
       margin: 16px;
     }
     .subtitle {
-      margin: 0 16px;
+      margin: 0 16px 16px 16px;
+    }
+    .progress-bar {
+      height: 10px; width: 375px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $dark-purlple;
+      margin: 16px;
     }
     .skill-items {
+
       .row {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 16px;
+        flex-wrap: wrap;
         .item {
           display: flex;
           justify-content: center;
@@ -74,7 +86,7 @@
           padding:  0 16px;
           border-radius: 18px;
           border: 1px solid white;
-          margin: 0 8px;
+          margin: 8px;
         }
       }
     }
