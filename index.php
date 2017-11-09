@@ -9,11 +9,13 @@
     <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/styles.php');?>
 </head>
 <body>
+
     <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/drawer.php');?>
+
    <div class="page-content">
        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/navigation.php');?>
        <div id="fullpage">
-           <div class="section front-page">
+           <div class="section front-page" data-anchor="home">
                <img class="front-image" src="storage/front-page-background.png" alt="">
                <div class="box-item"></div>
                <div class="text-area">
@@ -31,15 +33,11 @@
                    </div>
                </div>
            </div>
-           <div class="section project">
-               <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/projects/iportalen.php');?>
-           </div>
-           <div class="section project">
-               <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/projects/teamaktiv.php');?>
-           </div>
-           <div class="section project">
-               <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/projects/teamaktiv.php');?>
-           </div>
+
+           <!--Project pages -->
+           <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/projects/iportalen.php');?>
+
+           <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/projects/teamaktiv.php');?>
 
        </div>
    </div>

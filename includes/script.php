@@ -4,5 +4,10 @@
 <script src="../libraries/fullpage/jquery.fullpage.js"></script>
 <!--greensock-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+
+<script src="../libraries/mustache.js"></script>
+
+
+
 <!--main-->
 <script src="../app.js"></script>

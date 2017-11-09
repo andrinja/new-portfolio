@@ -1,27 +1,17 @@
 * {
   flex-shrink: 0;
+  box-sizing: border-box;
 }
 body {
   margin: 0;
   font-family: $font;
-  background: linear-gradient(to bottom right, $dark-purple, $purple);
+  //background: linear-gradient(to bottom right, $dark-purple, $purple);
 }
 
 #fullpage {
   width: 100vw;
   .section {
     height: 100vh;
-  }
-  .project-one {
     background-color: $purple;
-    position: relative;
-    z-index: 2;
-    height: 100vh;
   }
-  .project-two {
-    height: 100vh;
-  }
-}
-.resume-content {
-
 }
