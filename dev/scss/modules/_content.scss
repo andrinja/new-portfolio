@@ -4,6 +4,7 @@
 body {
   margin: 0;
   font-family: $font;
+  background: linear-gradient(to bottom right, $dark-purlple, $purple);
 }
 
 #fullpage {
@@ -18,10 +19,9 @@ body {
     height: 100vh;
   }
   .project-two {
-    background-color: green;
     height: 100vh;
   }
 }
 .resume-content {
-  background-color: $purple;
+
 }

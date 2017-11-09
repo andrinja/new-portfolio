@@ -1,4 +1,5 @@
 
+
 function removeFilter(event) {
     var removeButton = event.target;
     var filter = removeButton.parentElement;
