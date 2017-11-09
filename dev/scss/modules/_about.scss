@@ -86,7 +86,180 @@
           padding:  0 16px;
           border-radius: 18px;
           border: 1px solid white;
+          transition: border 0.3s linear;
           margin: 8px;
+          font-weight: 400;
+          cursor: pointer;
+          &.html {
+            &.active {
+              $color: $red;
+              border: 1px solid $color;
+              box-shadow: 0 3px 6px $color;
+              color: $purple;
+              background-color: $color;
+              transition: background-color 0.5s linear;
+            }
+          }
+          &.javascript {
+            &.active {
+              $color: $green;
+              border: 1px solid $color;
+              box-shadow: 0 3px 6px $color;
+              color: $purple;
+              background-color: $color;
+              transition: background-color 0.5s linear;
+            }
+          }
+          &.css {
+            &.active {
+              $color: $yellow;
+              border: 1px solid $color;
+              box-shadow: 0 3px 6px $color;
+              color: $purple;
+              background-color: $color;
+              transition: background-color 0.5s linear;
+            }
+          }
+          &.jquery {
+            &.active {
+              $color: $blue;
+              border: 1px solid $color;
+              box-shadow: 0 3px 6px $color;
+              color: $purple;
+              background-color: $color;
+              transition: background-color 0.5s linear;
+            }
+          }
+          &.php {
+            &.active {
+              $color: $light-purple;
+              border: 1px solid $color;
+              box-shadow: 0 3px 6px $color;
+              color: $purple;
+              background-color: $color;
+              transition: background-color 0.5s linear;
+            }
+          }
+          &.mysql {
+            &.active {
+              $color: $orange;
+              border: 1px solid $color;
+              box-shadow: 0 3px 6px $color;
+              color: $purple;
+              background-color: $color;
+              transition: background-color 0.5s linear;
+            }
+          }
+          &.sass {
+              &.active {
+                $color: $pink;
+                border: 1px solid $color;
+                box-shadow: 0 3px 6px $color;
+                color: $purple;
+                background-color: $color;
+                transition: background-color 0.5s linear;
+              }
+            }
+          &.photoshop {
+             &.active {
+               $color: $light-blue;
+               border: 1px solid $color;
+               box-shadow: 0 3px 6px $color;
+               color: $purple;
+               background-color: $color;
+               transition: background-color 0.5s linear;
+             }
+           }
+          &.illustrator {
+            &.active {
+              $color: $dark-orange;
+              border: 1px solid $color;
+              box-shadow: 0 3px 6px $color;
+              color: $purple;
+              background-color: $color;
+              transition: background-color 0.5s linear;
+            }
+          }
+          &.premiere {
+            &.active {
+              $color: $light-purple;
+              border: 1px solid $color;
+              box-shadow: 0 3px 6px $color;
+              color: $purple;
+              background-color: $color;
+              transition: background-color 0.5s linear;
+            }
+          }
+          &.after-effects {
+            &.active {
+              $color: $light-purple;
+              border: 1px solid $color;
+              box-shadow: 0 3px 6px $color;
+              color: $purple;
+              background-color: $color;
+              transition: background-color 0.5s linear;
+            }
+          }
+          &.figma {
+            &.active {
+              $color: $red;
+              border: 1px solid $color;
+              box-shadow: 0 3px 6px $color;
+              color: $purple;
+              background-color: $color;
+              transition: background-color 0.5s linear;
+            }
+          }
+          &.seo {
+              &.active {
+                $color: $blue;
+                border: 1px solid $color;
+                box-shadow: 0 3px 6px $color;
+                color: $purple;
+                background-color: $color;
+                transition: background-color 0.5s linear;
+              }
+            }
+          &.wordpress {
+            &.active {
+              $color: $light-blue;
+              border: 1px solid $color;
+              box-shadow: 0 3px 6px $color;
+              color: $purple;
+              background-color: $color;
+              transition: background-color 0.5s linear;
+            }
+          }
+          &.angular {
+            &.active {
+              $color: $red;
+              border: 1px solid $color;
+              box-shadow: 0 3px 6px $color;
+              color: $purple;
+              background-color: $color;
+              transition: background-color 0.5s linear;
+            }
+          }
+          &.laracasts {
+            &.active {
+              $color: $green;
+              border: 1px solid $color;
+              box-shadow: 0 3px 6px $color;
+              color: $purple;
+              background-color: $color;
+              transition: background-color 0.5s linear;
+            }
+          }
+          &.bootstrap {
+            &.active {
+              $color: $light-purple;
+              border: 1px solid $color;
+              box-shadow: 0 3px 6px $color;
+              color: $purple;
+              background-color: $color;
+              transition: background-color 0.5s linear;
+            }
+          }
         }
       }
     }
