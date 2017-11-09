@@ -103,6 +103,25 @@ body {
               background-color: #0F0C29;
               transition: background-color 1s linear; } }
 
+.drawer {
+  position: fixed;
+  right: 0;
+  top: 8vh;
+  height: 92vh; }
+
+.page-content {
+  position: relative; }
+  .page-content.menu-open {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 10vh;
+    right: 256px;
+    transform-origin: 50% 0;
+    transform: scale(0.8);
+    overflow: hidden;
+    box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.24), 48px 0 0 -32px rgba(15, 12, 41, 0.75), 80px 0 0 -48px rgba(35, 69, 203, 0.5); }
+
 .section .scroll-item {
   width: 100%;
   position: absolute;
