@@ -9,9 +9,9 @@
             <a class="title-item" href="../pages/about.php">About me</a>
         </div>
         <div class="nav-item menu-icon" id="menu">
-            <div class="top-line line"></div>
-            <div class="middle-line line"></div>
-            <div class="bottom-line line"></div>
+            <div class="top-line menu-line"></div>
+            <div class="middle-line menu-line"></div>
+            <div class="bottom-line menu-line"></div>
         </div>
     </div>
 
