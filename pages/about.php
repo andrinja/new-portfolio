@@ -34,7 +34,10 @@
         <div class="bottom-container">
             <div class="about-title">Creative and innovative UX/ UI designer and developer, who enjoys working in a fast paced and technically
                 challenging environment. Self-driven, with an enthusiastic, flexible and 'can-do' attitude.</div>
-            <div class="subtitle">Newer stop learning  because life never stops teaching</div>
+            <div class="subtitle">Never stop learning  because life never stops teaching</div>
+            <div class="progress-bar">
+                <div class="line"></div>
+            </div>
             <div class="skill-items">
                 <div class="row">
                     <div class="item">
@@ -98,7 +101,6 @@
                 </div>
             </div>
         </div>
-
-
+        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/script.php'); ?>
 </body>
 </html>
