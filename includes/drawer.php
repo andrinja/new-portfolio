@@ -62,18 +62,18 @@
                 </div>
             </div>
         </div>
-        <a class="drawer-item" href="pages/art.php">
+        <a class="drawer-item" href="../pages/art.php">
             <i class="material-icons">edit</i>
             <div class="title">Traditional art</div>
         </a>
-        <a class="drawer-item">
+        <a class="drawer-item" href="../pages/resume.php">
             <i class="material-icons">import_contacts</i>
             <div class="title">Resumé</div>
         </a>
-        <div class="drawer-item">
+        <a class="drawer-item" href="../pages/about.php">
             <i class="material-icons">face</i>
             <div class="title">About me</div>
-        </div>
+        </a>
     </div>
 
     <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/templates/dropdown-drawer-item.html');?>

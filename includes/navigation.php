@@ -2,7 +2,7 @@
     <div class="nav-items">
         <a class="nav-item logo" href="">AZ</a>
         <div class="nav-item title-items">
-            <a class="title-item" href="">Home</a>
+            <a class="title-item" href="#home">Home</a>
             <a class="title-item" href="">Digital projects</a>
             <a class="title-item" href="../pages/art.php">Traditional art</a>
             <a class="title-item" href="../pages/resume.php">Resume</a>

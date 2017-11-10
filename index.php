@@ -30,12 +30,12 @@
                <img class="front-image" src="storage/front-page-background.png" alt="">
                <div class="box-item"></div>
                <div class="text-area">
-                   <div class="name">Testing</div>
+                   <div class="name">ANDRA ZEBERGA</div>
                    <div class="title">Front end developer</div>
                    <div class="sub-title">“Design is not just what it looks like and feels like. Design is how it works.”</div>
                    <div class="buttons">
                        <a class="resume-btn btn" href="pages/resume.php">Resume</a>
-                       <a class="project-btn btn" href="">Projects</a>
+                       <a class="project-btn btn" href="#iportalen_page">Projects</a>
                    </div>
                </div>
                <div class="scroll-item">
