@@ -302,7 +302,7 @@ function chooseSection(event) {
         }
     }
 
-/*    //choose whether  on paintings/prints/shop content
+    //choose whether  on paintings/prints/shop content
     var contentItems = document.querySelectorAll('.content-item');
     var selector = ".content-item" + "." + sectionName;
     var contentItem = document.querySelector(selector);
@@ -310,7 +310,7 @@ function chooseSection(event) {
     for(var i = 0; i<contentItems.length; i++){
         contentItems[i].classList.remove('active');
     }
-    contentItem.classList.add('active');*/
+    contentItem.classList.add('active');
 
 }
 
