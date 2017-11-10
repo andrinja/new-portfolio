@@ -76,5 +76,5 @@
         </div>
     </div>
 
-    <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/templates/dropdown-drawer-item.html');?>
+    <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/templates/dropdown-drawer-item.html');?>
 </div>

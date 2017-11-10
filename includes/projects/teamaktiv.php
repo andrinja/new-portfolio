@@ -16,19 +16,19 @@
         <div class="screenshots">
             <div class="screenshot-container desktop">
                 <div class="screenshot">
-                    <img src="/includes/png/teamaktiv/index.png" alt="">
+                    <img src="<?php echo $root_url; ?>includes/png/teamaktiv/index.png" alt="">
                 </div>
                 <div class="screenshot">
-                    <img src="/includes/png/teamaktiv/menu.png" alt="">
+                    <img src="<?php echo $root_url; ?>includes/png/teamaktiv/menu.png" alt="">
                 </div>
                 <div class="screenshot">
-                    <img src="/includes/png/teamaktiv/pyramid.png" alt="">
+                    <img src="<?php echo $root_url; ?>includes/png/teamaktiv/pyramid.png" alt="">
                 </div>
                 <div class="screenshot">
-                    <img src="/includes/png/teamaktiv/values.png" alt="">
+                    <img src="<?php echo $root_url; ?>includes/png/teamaktiv/values.png" alt="">
                 </div>
                 <div class="screenshot">
-                    <img src="/includes/png/teamaktiv/contacts.png" alt="">
+                    <img src="<?php echo $root_url; ?>includes/png/teamaktiv/contacts.png" alt="">
                 </div>
 
             </div>

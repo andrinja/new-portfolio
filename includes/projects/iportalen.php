@@ -17,28 +17,28 @@
         <div class="screenshots">
             <div class="screenshot-container mobile">
                 <div class="screenshot">
-                    <img src="/includes/png/iportalen/homepage.png" alt="">
+                    <img src="<?php echo $root_url; ?>includes/png/iportalen/homepage.png" alt="">
                 </div>
                 <div class="screenshot">
-                    <img src="/includes/png/iportalen/child-page.png" alt="">
+                    <img src="<?php echo $root_url; ?>includes/png/iportalen/child-page.png" alt="">
                 </div>
                 <div class="screenshot">
-                    <img src="/includes/png/iportalen/calendar.png" alt="">
+                    <img src="<?php echo $root_url; ?>includes/png/iportalen/calendar.png" alt="">
                 </div>
                 <div class="screenshot">
-                    <img src="/includes/png/iportalen/vacation.png" alt="">
+                    <img src="<?php echo $root_url; ?>includes/png/iportalen/vacation.png" alt="">
                 </div>
                 <div class="screenshot">
-                    <img src="/includes/png/iportalen/menu.png" alt="">
+                    <img src="<?php echo $root_url; ?>includes/png/iportalen/menu.png" alt="">
                 </div>
                 <div class="screenshot">
-                    <img src="/includes/png/iportalen/message.png" alt="">
+                    <img src="<?php echo $root_url; ?>includes/png/iportalen/message.png" alt="">
                 </div>
                 <div class="screenshot">
-                    <img src="/includes/png/iportalen/childmenu.png" alt="">
+                    <img src="<?php echo $root_url; ?>includes/png/iportalen/childmenu.png" alt="">
                 </div>
                 <div class="screenshot">
-                    <img src="/includes/png/iportalen/profiles.png" alt="">
+                    <img src="<?php echo $root_url; ?>includes/png/iportalen/profiles.png" alt="">
                 </div>
             </div>
         </div>
