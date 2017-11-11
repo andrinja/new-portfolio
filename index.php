@@ -50,6 +50,15 @@
 
            <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/projects/teamaktiv.php');?>
 
+           <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/projects/iprezentr.php');?>
+
+           <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/projects/fairtrade.php');?>
+
+           <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/projects/randoms.php');?>
+
+           <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/projects/registration.php');?>
+
+
        </div>
    </div>
    <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/script.php');?>

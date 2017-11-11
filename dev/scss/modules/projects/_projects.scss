@@ -27,8 +27,32 @@
       }
     }
     .project-description {
+      font-size: $standard-font;
+    }
+    .project-links {
+      margin-top: 16px;
+      display: flex;
+      flex-direction: column;
+      a {
+        padding-bottom: 8px;
+        font-size: $standard-font;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        &.view-site-link {
+          display: flex;
+          line-height: 24px;
+          i {
+            margin-left: 8px;
+            color: $yellow;
+            transform: rotate(-90deg);
 
-      font-size: 14px;
+          }
+        }
+        &.view-blog-link {
+          font-size: $small-font;
+        }
+      }
     }
   }
 
@@ -61,6 +85,17 @@
             }
           }
         }
+      &.desktop-large {
+        .screenshot {
+          $height: 350px;
+          margin: 16px;
+          height: $height; width: $height * 1.77;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
     }
   }
 }
