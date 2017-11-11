@@ -38,6 +38,13 @@
                        <a class="project-btn btn" href="#iportalen_page">Projects</a>
                    </div>
                </div>
+               <div class="follow-btn">
+                   <div class="share-icon icon "><i class="mdi mdi-share-variant mdi-24px"></i></div>
+                   <div class="item icon "><a href="https://www.linkedin.com/in/andra-zeberga-4333694a/" target="_blank"><i class="mdi mdi-linkedin mdi-24px"></i></a></div>
+                   <div class="item icon "><a href="https://twitter.com/AndrinjaSC2" target="_blank"><i class="mdi mdi-twitter mdi-24px"></i></a></div>
+                   <div class="item icon"><a href="https://www.instagram.com/andrinjaa/?hl=en" target="_blank"><i class="mdi mdi-instagram mdi-24px"></i></a></div>
+               </div>
+               </div>
                <div class="scroll-item">
                    <div class="mouse">
                        <div class="scroll"></div>

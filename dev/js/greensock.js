@@ -19,3 +19,17 @@
   .to(".bottom-line", 1, {rotation:45, ease:Power4.easeOut, y:-7}, "-=1")
   }
  });
+
+// on click stagger emoticon icons
+
+$('.follow-btn').on('click', function () {
+    if($('.item').hasClass('open')) {
+        $('.item').removeClass('open');
+        TweenMax.staggerTo(".item", 0.5, {scale:0.5, opacity:0, x:-70, ease:Power4.easeOut}, 0.1);
+    }
+    else {
+        $('.item').addClass('open');
+        TweenMax.staggerTo(".item", 0, {scale:0.5, opacity:0, x:-50, ease:Power4.easeOut});
+        TweenMax.staggerTo(".item", 1, {scale:1, opacity:1, x:0, delay:0.5, ease:Elastic.easeOut}, 0.2);
+    }
+});
