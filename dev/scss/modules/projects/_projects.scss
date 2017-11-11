@@ -28,6 +28,16 @@
     }
     .project-description {
       font-size: $standard-font;
+
+      .work-description {
+        display: flex;
+        padding: 8px 0;
+        justify-content: flex-start;
+        align-items: center;
+        i {
+          margin-right: 8px;
+        }
+      }
     }
     .project-links {
       margin-top: 16px;
@@ -35,7 +45,7 @@
       flex-direction: column;
       a {
         padding-bottom: 8px;
-        font-size: $standard-font;
+        font-size: $small-font;
         color: white;
         text-decoration: none;
         text-transform: uppercase;

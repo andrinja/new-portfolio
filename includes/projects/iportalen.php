@@ -11,7 +11,16 @@
                 <i class="mdi mdi-windows mdi-24px"></i>
             </div>
             <div class="project-description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque autem blanditiis delectus, deserunt distinctio dolore earum explicabo modi natus neque, non quam quibusdam repellendus rerum, sapiente sed veniam voluptate?
+                <div class="goal-description"> Project goal is to create hybrid app for parents who can follow child activities at the school.</div>
+
+                <div class="work-description">
+                    <i class="material-icons">work</i>
+                    <div class="work-title">Concept | Design | Front-end programming</div>
+                </div>
+
+                <div class="website-description">
+                    Hybrid app built using Cordova plugin. Ionic framework allows to apply style for IOS, Android and Windows. Design is made following material design guidlines.
+                </div>
             </div>
         </div>
         <div class="screenshots">

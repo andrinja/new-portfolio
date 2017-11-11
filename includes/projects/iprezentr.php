@@ -9,7 +9,16 @@
 
             </div>
             <div class="project-description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque autem blanditiis delectus, deserunt distinctio dolore earum explicabo modi natus neque, non quam quibusdam repellendus rerum, sapiente sed veniam voluptate?
+                <div class="goal-description"> Project goal is to style chat bar on the right.</div>
+
+                <div class="work-description">
+                    <i class="material-icons">work</i>
+                    <div class="work-title">Design | Front-end programming</div>
+                </div>
+
+                <div class="website-description">
+                     Design is made following material design guidlines. It is desktop first  responsive design as the website is used only on desktop screen.
+                </div>
             </div>
         </div>
         <div class="screenshots">

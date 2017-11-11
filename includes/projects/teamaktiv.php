@@ -10,7 +10,16 @@
                 <i class="mdi mdi-language-javascript mdi-24px"></i>
             </div>
             <div class="project-description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque autem blanditiis delectus, deserunt distinctio dolore earum explicabo modi natus neque, non quam quibusdam repellendus rerum, sapiente sed veniam voluptate?
+                <div class="goal-description"> Project goal is to create responsive material design website.</div>
+
+                <div class="work-description">
+                    <i class="material-icons">work</i>
+                    <div class="work-title">Concept | Design | Programming</div>
+                </div>
+
+                <div class="website-description">
+                    Design is made following material design guidlines. It is an informative website that is responsive on all devices.
+                </div>
             </div>
         </div>
         <div class="screenshots">

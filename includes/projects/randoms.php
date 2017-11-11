@@ -13,7 +13,16 @@
                 <i class="mdi mdi-facebook mdi-24px"></i>
             </div>
             <div class="project-description">
-                built in vanilla PHP. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque autem blanditiis delectus, deserunt distinctio dolore earum explicabo modi natus neque, non quam quibusdam repellendus rerum, sapiente sed veniam voluptate?
+                <div class="goal-description"> Project goal is to create user generated mobile first design Randoms website.</div>
+
+                <div class="work-description">
+                    <i class="material-icons">work</i>
+                    <div class="work-title">Research | Concept | Design | Programming</div>
+                </div>
+
+                <div class="website-description">
+                    Daily gifs are displayed on frontpage that are approved by administrator. Every user can login using Facebook API or create acoount to participate in the gif contest. By the end of the day, winner is announced who has the most likes throughout the day.
+                </div>
             </div>
             <div class="project-links">
                 <a class="view-site-link" href="http://andrinja.com/randoms/" target="_blank">View site
