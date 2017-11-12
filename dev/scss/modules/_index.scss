@@ -1,8 +1,7 @@
 .page-content {
   position: relative;
-  -webkit-transform-style: preserve-3d;
-  transform: scale(1);
   top: 0; right: 0;
+  transform: translateX(0);
   transition: all .3s ease;
   overflow: hidden;
   box-shadow: 6px 6px 18px rgba(0,0,0,.24), 48px 0 0 -48px transparentize($purple, .25), 80px 0 0 -80px transparentize($dark-blue, .5);
@@ -11,9 +10,7 @@
   &.menu-open {
     position: fixed;
     height: 100vh; width: 100vw;
-    top: 10vh; right: 256px;
-    transform-origin: 50% 0;
-    transform: scale(0.8);
+    transform: translateX(-322px);
     box-shadow: 6px 6px 18px rgba(0,0,0,.24), 48px 0 0 -32px transparentize($purple, .25), 80px 0 0 -48px transparentize($dark-blue, .5);
   }
 }

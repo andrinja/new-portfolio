@@ -10,19 +10,19 @@
         }
 
         if(isBetween('8:00 am', '6:00 pm', date('!H:i'))) { ?>
-        <!--  Night time -->
-            <div class="graphic">
-                <?php include('svg/night-badge.svg') ?>
-            </div>
-            <div class="title">It's night time</div>
-            <div class="caption">Response times may vary &#x1F609</div>
-        <?php } else { ?>
         <!--  Day time -->
             <div class="graphic">
                 <?php include('svg/day-badge.svg') ?>
             </div>
             <div class="title">Sun's up!</div>
             <div class="caption">Write me, I'm up &#x1F609</div>
+        <?php } else { ?>
+        <!--  Night time -->
+            <div class="graphic">
+                <?php include('svg/night-badge.svg') ?>
+            </div>
+            <div class="title">It's night time</div>
+            <div class="caption">Response times may vary &#x1F609</div>
         <?php } ?>
 
     </div>
@@ -32,7 +32,7 @@
             <i class="material-icons">home</i>
             <div class="title">Home</div>
         </a>
-        <div id="project-dropdown" class="drawer-item dropdown">
+        <div id="project-dropdown" class="drawer-item dropdown collapsed">
             <div class="dropdown-label">
                 <i class="material-icons">photo_library</i>
                 <div class="title">Digital projects</div>

@@ -58,6 +58,10 @@
 
            <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/projects/registration.php');?>
 
+           <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/projects/greenpeace.php');?>
+
+           <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/projects/animation.php');?>
+
 
        </div>
    </div>

@@ -1,4 +1,4 @@
-<div class="section" data-anchor="greenpiece_page">
+<div class="section" data-anchor="greenpeace_page">
     <div class="project-page">
         <div class="project-details">
             <div class="project-title">Greenpiece</div>

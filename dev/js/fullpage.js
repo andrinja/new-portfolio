@@ -5,10 +5,9 @@ $(document).ready(function() {
         anchors.push($(this).attr('data-anchor'));
     });
 
-    console.log(anchors);
-
     //Initialize full page
     $('#fullpage').fullpage({
+        resize: true,
         anchors: anchors
     });
 });

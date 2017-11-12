@@ -18,8 +18,9 @@ else {
     <title>Document</title>
     <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/styles.php');?>
 </head>
-<body class="art-page">
-    <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/drawer.php');?>
+<body>
+<?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/drawer.php');?>
+<div class="page-content art-page">
     <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/navigation.php');?>
     <div class="content">
         <div class="side-bar">
@@ -469,6 +470,7 @@ else {
         </div>
 
     </div>
-    <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/script.php');?>
+</div>
+<?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/script.php');?>
 </body>
 </html>

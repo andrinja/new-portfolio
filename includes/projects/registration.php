@@ -13,10 +13,13 @@
                 <i class="mdi mdi-facebook mdi-24px"></i>
             </div>
             <div class="project-description">
-                built in vanilla PHP. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque autem blanditiis delectus, deserunt distinctio dolore earum explicabo modi natus neque, non quam quibusdam repellendus rerum, sapiente sed veniam voluptate?
+                built in vanilla PHP. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque autem
+                blanditiis delectus, deserunt distinctio dolore earum explicabo modi natus neque, non quam quibusdam
+                repellendus rerum, sapiente sed veniam voluptate?
             </div>
             <div class="project-links">
-                <a class="view-site-link" href="http://andrinja.com/digital-design/register/index.php" target="_blank">View site
+                <a class="view-site-link" href="http://andrinja.com/digital-design/register/index.php" target="_blank">
+                    View site
                     <i class="material-icons">arrow_drop_down_circle</i>
                 </a>
             </div>
@@ -47,6 +50,7 @@
                 <div class="screenshot">
                     <img src="<?php echo $root_url; ?>includes/png/registration/summary.png" alt="">
                 </div>
+            </div>
         </div>
     </div>
 </div>

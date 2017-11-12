@@ -5,27 +5,27 @@ $(document).ready(function(){
     //populate project dropdown
     $('.dropdown-drawer-item').remove();
     var projectPages = $('.project-page');
-    var fakeProjectData = [
-        {name: 'project name', caption: 'some caption'},
-        {name: 'project name', caption: 'some caption'},
-        {name: 'project name', caption: 'some caption'},
-
-    ];
     if(projectPages.length == 0){
-        $.each(fakeProjectData, function(i,project){
-            var template = $('#dropdown-drawer-item').html();
-            var view = {name: project.name, caption: project.caption};
+        var projects = localStorage.getItem('projects') || '[]';
+        projects = JSON.parse(projects);
+        var template = $('#dropdown-drawer-item').html();
+        $.each(projects, function(i,project){
+            var view = {name: project.name, caption: project.caption, anchor: 'index.php#' + project.anchor};
             var item = Mustache.render(template, view);
             $('#project-dropdown .dropdown-content').append(item);
         })
     }
     else {
         projectPages.each(function(){
+
             var template = $('#dropdown-drawer-item').html();
             var view = {name: $(this).find('.project-title').text(),
                         caption: $(this).find('.project-caption').text(),
-                        anchor: $(this).closest('.section').attr('data-anchor')};
+                        anchor: '#' + $(this).closest('.section').attr('data-anchor')};
             var item = Mustache.render(template, view);
+
+            //store project page information in local storage
+            storeProject(view);
             $('#project-dropdown .dropdown-content').append(item);
         })
     }
@@ -59,3 +59,10 @@ $(document).on('click', '.dropdown-drawer-item',function(){
 drawer.find('.dropdown-label').on('click', function(){
     $(this).closest('.dropdown').toggleClass('collapsed');
 })
+
+function storeProject(project){
+    var projects = JSON.parse('[]');
+    projects.push(project);
+    projects = JSON.stringify(projects);
+    localStorage.setItem('projects', projects);
+}
