@@ -62,15 +62,15 @@
                 </div>
             </div>
         </div>
-        <a class="drawer-item" href="../pages/art.php">
+        <a class="drawer-item" href="">
             <i class="material-icons">edit</i>
             <div class="title">Traditional art</div>
         </a>
-        <a class="drawer-item" href="../pages/resume.php">
+        <a class="drawer-item" href="<?php echo $root_url.'pages/resume.php'; ?>">
             <i class="material-icons">import_contacts</i>
             <div class="title">Resumé</div>
         </a>
-        <a class="drawer-item" href="../pages/about.php">
+        <a class="drawer-item" href="<?php echo $root_url.'pages/about.php'; ?>">
             <i class="material-icons">face</i>
             <div class="title">About me</div>
         </a>
