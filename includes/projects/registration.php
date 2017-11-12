@@ -12,6 +12,7 @@
                 <i class="mdi mdi-database mdi-24px"></i>
             </div>
             <div class="project-description">
+
                 <div class="goal-description"> Project goal is to create registration app for emergency room to avoid waiting time at the hospital.</div>
 
                 <div class="work-description">
@@ -24,8 +25,9 @@
                 </div>
             </div>
             <div class="project-links">
-                <a class="view-site-link" href="http://andrinja.com/digital-design/register/index.php" target="_blank">View site
-                    <i class="material-icons">arrow_drop_down_circle</i>
+                <a class="view-site-link rotated" href="http://andrinja.com/digital-design/register/index.php" target="_blank">
+                    View site
+                    <i class="material-icons">arrow_drop_down</i>
                 </a>
             </div>
         </div>
@@ -55,6 +57,7 @@
                 <div class="screenshot">
                     <img src="<?php echo $root_url; ?>includes/png/registration/summary.png" alt="">
                 </div>
+            </div>
         </div>
     </div>
 </div>

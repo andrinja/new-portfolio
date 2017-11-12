@@ -16,7 +16,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
     <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/styles.php');?>
 </head>
 <body>
@@ -64,7 +64,11 @@
            <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/projects/randoms.php');?>
 
            <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/projects/registration.php');?>
-       </div>
+
+           <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/projects/greenpeace.php');?>
+
+           <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/projects/animation.php');?>
+
        </div>
    </div>
    <?php include($_SERVER['DOCUMENT_ROOT'].$root_url.'includes/script.php');?>

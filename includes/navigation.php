@@ -1,12 +1,13 @@
 <nav class="top-nav">
     <div class="nav-items">
-        <a class="nav-item logo" href="">AZ</a>
+        <a class="nav-item logo" href="<?php
+            echo $root_url.'#home';
+        ?>">
+            <img src="<?php
+                echo $root_url.'includes/png/az-logo.png';
+            ?>" alt="">
+        </a>
         <div class="nav-item title-items">
-            <a class="title-item" href="#home">Home</a>
-            <a class="title-item" href="">Digital projects</a>
-            <a class="title-item" href="../pages/art.php">Traditional art</a>
-            <a class="title-item" href="../pages/resume.php">Resume</a>
-            <a class="title-item" href="../pages/about.php">About me</a>
         </div>
         <div class="nav-item menu-icon" id="menu">
             <div class="top-line menu-line"></div>

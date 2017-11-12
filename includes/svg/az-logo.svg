@@ -1,0 +1,48 @@
+<svg width="115" height="49" viewBox="0 0 115 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AZ</title>
+    <desc>Created using Figma</desc>
+    <g id="Canvas" transform="translate(1022 98)">
+        <g id="AZ">
+            <g id="Z">
+                <g id="Rectangle 2.1">
+                    <use xlink:href="#path0_fill" transform="translate(-958.103 -62.3791)" fill="#DEDEDE"/>
+                </g>
+                <g id="Rectangle 2.2">
+                    <use xlink:href="#path1_fill" transform="translate(-954.851 -97.5541)" fill="#DEDEDE"/>
+                </g>
+                <g id="Rectangle 3">
+                    <use xlink:href="#path2_fill" transform="matrix(0.63241 0.774634 -0.774634 0.63241 -914.981 -97.578)" fill="#FFFFFF"/>
+                </g>
+                <g id="Intersect">
+                    <use xlink:href="#path3_fill" transform="translate(-938.266 -97.4138)" fill="#000000" fill-opacity="0.12"/>
+                </g>
+                <g id="Intersect">
+                    <use xlink:href="#path4_fill" transform="matrix(-1 -0 0 -1 -927.785 -49.6726)" fill="#000000" fill-opacity="0.12"/>
+                </g>
+            </g>
+            <g id="Union">
+                <use xlink:href="#path5_fill" transform="translate(-1021.17 -97.476)" fill="#DEDEDE"/>
+            </g>
+            <g id="Intersect">
+                <use xlink:href="#path6_fill" transform="translate(-995.638 -97.4614)" fill="#000000" fill-opacity="0.12"/>
+            </g>
+            <g id="Rectangle 2">
+                <use xlink:href="#path7_fill" transform="translate(-982.827 -73.6345)" fill="#000000" fill-opacity="0.12"/>
+            </g>
+            <g id="Rectangle">
+                <use xlink:href="#path8_fill" transform="matrix(1 0 0 -1 -995.646 -49.578)" fill="#FFFFFF"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <path id="path0_fill" d="M 0 0.0273778L 39.8894 0L 46.9802 12.7307L 7.06346 12.7033L 0 0.0273778Z"/>
+        <path id="path1_fill" d="M 0 0.0275568L 39.8894 0L 46.9802 12.8139L 7.06346 12.7864L 0 0.0275568Z"/>
+        <path id="path2_fill" d="M 0.0298493 1.72043e-06L 14.3755 2.56127L 14.3011 58.2274L 0 55.6678L 0.0298493 1.72043e-06Z"/>
+        <path id="path3_fill" fill-rule="evenodd" d="M 7.6062 12.6552L 0 12.65L 23.1245 0L 7.6062 12.6552Z"/>
+        <path id="path4_fill" fill-rule="evenodd" d="M 0 12.7013L 23.2182 0L 7.63708 12.7065L 0 12.7013Z"/>
+        <path id="path5_fill" fill-rule="evenodd" d="M 42.2228 0L 25.5224 0L 0 47.8591L 16.4266 47.8591L 22.5242 36.5465L 59.8109 36.5721L 52.72 23.8415L 29.3636 23.8575L 42.2228 0Z"/>
+        <path id="path6_fill" fill-rule="evenodd" d="M 5.13556 21.4219L 0 0L 0.00982666 0L 8.33777 15.4809L 5.13556 21.4219Z"/>
+        <path id="path7_fill" d="M 0 0.0465743L 7.35093 0L 10.0613 12.7156L 3.05262 12.7156L 0 0.0465743Z"/>
+        <path id="path8_fill" d="M 25.7666 0L 42.4671 0L 16.6709 47.8591L 0 47.898L 25.7666 0Z"/>
+    </defs>
+</svg>

@@ -14,7 +14,7 @@ $colors: (#7E57C2, #56CCF2, #7E57C2, #EB5757, #F27200, #FFEA82, #79E1A4, #2D9CDB
 
 .drawer {
     position: fixed;
-    right: 0; top: 8vh;
+    right: 0; top: 0;
     height: 92vh;
     transform: translateX(100%);
     transition: transform .3s ease;
@@ -49,7 +49,7 @@ $colors: (#7E57C2, #56CCF2, #7E57C2, #EB5757, #F27200, #FFEA82, #79E1A4, #2D9CDB
         user-select: none;
 
         .drawer-item {
-            height: 48px;
+            height: 42px;
             display: flex;
             align-items: center;
             padding: 16px 0;
@@ -58,12 +58,13 @@ $colors: (#7E57C2, #56CCF2, #7E57C2, #EB5757, #F27200, #FFEA82, #79E1A4, #2D9CDB
 
             &.dropdown {
                 flex-direction: column;
+                padding-top: 0;
                 padding-bottom: 0;
                 height: auto;
 
                 .dropdown-label {
                     display: flex;
-                    height: 48px;
+                    height: 42px;
                     width: 100%;
                     align-items: center;
 
@@ -177,9 +178,8 @@ $colors: (#7E57C2, #56CCF2, #7E57C2, #EB5757, #F27200, #FFEA82, #79E1A4, #2D9CDB
             }
 
             &.active {
-                color: white;
 
-                i {
+                i, .title {
                     color: white;
                 }
 

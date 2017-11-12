@@ -24,11 +24,17 @@
             </div>
 
             <div class="project-links">
-                <a class="view-site-link" href="http://5kreations.com/FairtradeWebsite/" target="_blank">View site
-                    <i class="material-icons">arrow_drop_down_circle</i>
+                <a class="view-site-link rotated" href="http://5kreations.com/FairtradeWebsite/" target="_blank">View site
+                    <i class="material-icons">arrow_drop_down</i>
                 </a>
-                <a class="view-site-link" href="http://andrinja.com/fair-blog/" target="_blank">Blog</a>
-                <a class="view-site-link" target="_blank" href="https://www.youtube.com/watch?v=gkO5G-gHREI">360 video</a>
+                <a class="view-site-link" href="http://andrinja.com/fair-blog/" target="_blank">
+                    Blog
+                    <i class="material-icons">edit</i>
+                </a>
+                <a class="view-site-link" target="_blank" href="https://www.youtube.com/watch?v=gkO5G-gHREI">
+                    360 video
+                    <i class="material-icons">videocam</i>
+                </a>
             </div>
         </div>
         <div class="screenshots">

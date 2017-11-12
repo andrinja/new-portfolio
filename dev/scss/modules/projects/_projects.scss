@@ -29,12 +29,15 @@
     .project-description {
       font-size: $standard-font;
 
+
       .work-description {
         display: flex;
         padding: 8px 0;
         justify-content: flex-start;
         align-items: center;
+
         i {
+          display: none;
           margin-right: 8px;
         }
       }
@@ -42,21 +45,44 @@
     .project-links {
       margin-top: 16px;
       display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
+
       a {
         padding-bottom: 8px;
         font-size: $small-font;
         color: white;
         text-decoration: none;
-        text-transform: uppercase;
+
         &.view-site-link {
           display: flex;
-          line-height: 24px;
+          align-items: center;
+          align-self: flex-end;
+          height: 40px;
+          border-radius: 20px;
+          line-height: 40px;
+          background-color: $yellow;
+          color: black;
+          padding: 0 16px;
+          text-transform: uppercase;
+          margin: 0 8px 8px 0;
+
+          &:hover {
+            background-color: darken($yellow, 2.5%);
+          }
+
+          &:active {
+            background-color: darken($yellow, 5%);
+          }
+
+          &.rotated {
+            i {
+              transform: rotate(-90deg);
+            }
+          }
+
           i {
             margin-left: 8px;
-            color: $yellow;
-            transform: rotate(-90deg);
-
+            color: black;
           }
         }
         &.view-blog-link {

@@ -1,4 +1,4 @@
-<div class="section" data-anchor="greenpiece_page">
+<div class="section" data-anchor="greenpeace_page">
     <div class="project-page">
         <div class="project-details">
             <div class="project-title">Greenpiece</div>
@@ -24,8 +24,8 @@
                 </div>
             </div>
             <div class="project-links">
-                <a class="view-site-link" href="http://andrinja.com/campaign/" target="_blank">View site
-                    <i class="material-icons">arrow_drop_down_circle</i>
+                <a class="view-site-link rotated" href="http://andrinja.com/campaign/" target="_blank">View site
+                    <i class="material-icons">arrow_drop_down</i>
                 </a>
             </div>
         </div>
