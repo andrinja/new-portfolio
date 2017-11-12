@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-        <a class="drawer-item" href="">
+        <a class="drawer-item" href="<?php echo $root_url.'pages/art.php'; ?>">
             <i class="material-icons">edit</i>
             <div class="title">Traditional art</div>
         </a>
