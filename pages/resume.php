@@ -1,7 +1,7 @@
 <?php
 $app_mode = 'local';
 
-if($app_mode == 'local'){
+if($app_mode == 'production'){
     $root_url = '/';
 }
 else {
